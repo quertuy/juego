@@ -17,6 +17,10 @@ function tirardado(ref){
 }
 
 function jugar(){
-  tirardado(dado1);
-  tirardado(dado2);
+ let suerte1 = tirardado(dado1);
+ let suerte2 = tirardado(dado2);
+  
+
+  console.log("Tiro 1" + suerte1);
+  console.log("Tiro 2" + suerte2);
 }

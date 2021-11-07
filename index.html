@@ -5,23 +5,26 @@
   <meta charset="utf-8">
   <title>quertuy lucky craps</title>
   <link rel="stylesheet" href="css/main.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
   <div id="ejercicio">
-    <div class="lado">
-      <h2>Intrucciones</h2>
-      <ol>
-        <li>Si en el primer tiro el jugador obtiene 7 (siete) u 11 (once) Gana la partida</li>
-        <li>Si en el primer tiro el jugador obtiene 2 (dos), 3(tres) o 12(doce)Pierde la partida</li>
-        <li>Si en el primer tiro obtiene 4 (cuatro), 5 (cinco), 6 (seis), 8 (ocho), 9 (nueve), ó 10 (diez), estableceel
-          PUNTO.</li>
-        <li>El tirador tiene que arrojar los dados tantas veces como sea necesario, hasta obtener el número que busca
-          (Punto). Si antes sale el 7(siete), El jugador pierde.</li>
-      </ol>
-      <h2>Ejercicio</h2>
-      <p>Complete el programa para que funcione según las instrucciones del juego</p>
+    <!-- <button><i class='bx bxs-cog'></i></button> -->
+    <div class="instrucciones">
+      <div class="instruccionescaja">
+        <h2>Intrucciones</h2>
+        <button id="cerrar"><i class='bx bxs-x-circle'></i></button>
+        <ol>
+          <li>Si en el primer tiro el jugador obtiene 7 (siete) u 11 (once) Gana la partida</li>
+          <li>Si en el primer tiro el jugador obtiene 2 (dos), 3(tres) o 12(doce)Pierde la partida</li>
+          <li>Si en el primer tiro obtiene 4 (cuatro), 5 (cinco), 6 (seis), 8 (ocho), 9 (nueve), ó 10 (diez), estableceel
+            PUNTO.</li>
+            <li>El tirador tiene que arrojar los dados tantas veces como sea necesario, hasta obtener el número que busca
+              (Punto). Si antes sale el 7(siete), El jugador pierde.</li>
+            </ol>
+        </div>
     </div>
     <div class="lado">
       <h2>Craps!</h2>
@@ -32,7 +35,7 @@
       <input type="button" value="Tirar" id="boton_tirar">
     </div>
 
-    <span id="points">PUNTOS: 0</span>
+    <span id="points">NUMERO A SACAR: </span>
 
   </div>
 </body>

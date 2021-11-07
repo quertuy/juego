@@ -14,13 +14,23 @@ function init(){
 function tirardado(ref){
   var cara = Math.floor(Math.random() * 6) + 1 ;
   ref.style.backgroundPosition = posiciones[cara-1]+"px";
+  return cara;
 }
 
 function jugar(){
  let suerte1 = tirardado(dado1);
  let suerte2 = tirardado(dado2);
+ let suerte3 = suerte1 + suerte2
+
   
 
-  console.log("Tiro 1" + suerte1);
-  console.log("Tiro 2" + suerte2);
+  console.log("suerte 1: "+suerte1);
+  console.log("Suerte 2: "+suerte2);
+
+  if(suerte3 == 7 || suerte3 == 11)
+  {
+
+  alert("Ganaste la partida");
+  
+  }
 }

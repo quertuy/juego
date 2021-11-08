@@ -6,6 +6,10 @@
 
 Bienvenido a quertuy lucky craps juego desarrollado con fines educativos y demostrar los conocimientos adquiridos en el aula de clases de Introduccion A IDER 
 
+## Diagrama
+
+[url=https://ibb.co/4jFx9SW][img]https://i.ibb.co/ZhfCtgd/pruebas-drawio.png[/img][/url]
+
 ## Servidor de Despliegue
 
 - Codepen : [https://codepen.io/quertuy/pen/KKvRpVd](https://codepen.io/quertuy/pen/KKvRpVd)

@@ -1,5 +1,5 @@
 var posiciones = [0, -160, -320, -481, -642, -803];
-let dado1, dado2, boton_tirar, puntos, contadorPuntos, intentos, cerrar,  abrir, abierto, instrucciones;
+let dado1, dado2, boton_tirar, puntos, contadorPuntos, intentos, cerrar,  abrir, abierto, instrucciones, abrircreditos, cerrarcreditos, abiertocreditos, creditos;
 
 window.onload = init;
 
@@ -9,17 +9,23 @@ function init() {
   contadorPuntos = 0
   intentos = 0;
   abierto = false;
+  abiertocreditos = false;
   dado1 = document.getElementById("dado1");
   dado2 = document.getElementById("dado2");
   puntos = document.getElementById("points");
   cerrar = document.getElementById("cerrar");
   abrir = document.getElementById("abrir");
   instrucciones = document.getElementById("instrucciones");
+  cerrarcreditos = document.getElementById("cerrarcreditos");
+  abrircreditos = document.getElementById("abrircreditos");
+  creditos = document.getElementById("creditos");
 
   boton_tirar = document.getElementById("boton_tirar");
   boton_tirar.addEventListener("click", jugar);
   cerrar.addEventListener("click", instruccionesCambio);
   abrir.addEventListener("click", instruccionesCambio);
+  cerrarcreditos.addEventListener("click", creditosCambio);
+  abrircreditos.addEventListener("click", creditosCambio);
 
  
 }
@@ -41,6 +47,20 @@ function instruccionesCambio() {
     instrucciones.setAttribute("class", "activo");
   }else{
     instrucciones.setAttribute("class", "instrucciones");
+
+  }
+
+}
+
+function creditosCambio() {
+  abiertocreditos = !abiertocreditos;
+
+  if(abiertocreditos == false)
+  {
+
+    creditos.setAttribute("class", "activo");
+  }else{
+    creditos.setAttribute("class", "creditos");
 
   }
 

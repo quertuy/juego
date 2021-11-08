@@ -83,7 +83,7 @@ function jugar() {
     setTimeout(() => {
       alert("Ganaste la partida");
       
-    }, 100)
+    }, 50)
     intentos = 0
 
   }
@@ -93,7 +93,7 @@ function jugar() {
     setTimeout(() => {
       alert("Loooser perdiste la partida");
       
-    }, 100)
+    }, 50)
 
     intentos = 0
 
@@ -103,7 +103,7 @@ function jugar() {
     setTimeout(() => {
       alert("Obtuviste un punto");
 
-    }, 100)
+    }, 50)
 
     contadorPuntos = suerte3
   }
@@ -113,7 +113,7 @@ function jugar() {
     setTimeout(() => {
       alert("Loooser perdiste la partida");
 
-    }, 100)
+    }, 50)
 
     intentos = 0
   }

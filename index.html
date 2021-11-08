@@ -11,8 +11,8 @@
 
 <body>
   <div id="ejercicio">
-    <!-- <button><i class='bx bxs-cog'></i></button> -->
-    <div class="instrucciones">
+    <button id="abrir"><i class='bx bx-question-mark' ></i></button>
+    <div class="activo" id="instrucciones">
       <div class="instruccionescaja">
         <h2>Intrucciones</h2>
         <button id="cerrar"><i class='bx bxs-x-circle'></i></button>
@@ -27,7 +27,10 @@
         </div>
     </div>
     <div class="lado">
-      <h2>Craps!</h2>
+      <div class="superior">
+        <span id="points">NUMERO A SACAR: </span>
+        <button><i class='bx bx-reset'></i></button>
+      </div>
       <div id="contenedor_dados">
         <div id="dado1" class="dado"></div>
         <div id="dado2" class="dado"></div>
@@ -35,7 +38,7 @@
       <input type="button" value="Tirar" id="boton_tirar">
     </div>
 
-    <span id="points">NUMERO A SACAR: </span>
+    
 
   </div>
 </body>

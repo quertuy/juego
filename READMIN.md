@@ -10,7 +10,7 @@ Bienvenido a quertuy lucky craps juego desarrollado con fines educativos y demos
 
 - Codepen : [https://codepen.io/quertuy/pen/KKvRpVd](https://codepen.io/quertuy/pen/KKvRpVd)
 
-- Github Pages : []()
+- Github Pages : [https://quertuy.github.io/juego/](https://quertuy.github.io/juego/)
 
 ## Construido Con
 

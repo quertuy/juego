@@ -8,7 +8,7 @@ Bienvenido a quertuy lucky craps juego desarrollado con fines educativos y demos
 
 ## Diagrama
 
-[url=https://ibb.co/4jFx9SW][img]https://i.ibb.co/ZhfCtgd/pruebas-drawio.png[/img][/url]
+[![pruebas-drawio.png](https://i.postimg.cc/vTb3VZbV/pruebas-drawio.png)](https://postimg.cc/PpVWGhLX)
 
 ## Servidor de Despliegue
 
